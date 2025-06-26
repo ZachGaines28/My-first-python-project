@@ -5,6 +5,12 @@
 # print(greet("World"))
 
 
-game = "Sandy"
+def eat(snack):
+        return f"I am eating {snack}."
 
-print("Hi, my name is " + game)
+
+name = "Sandy"
+snack = "snickers"
+print("Hi, my name is " + name)
+
+print(name + " " + eat(snack))
